@@ -22,6 +22,6 @@ public class Test {
 		Field field = clazz.getDeclaredField("username");
 		Setfield setfield = field.getAnnotation(Setfield.class);
 		System.out.println(setfield.columnName()+"--"+setfield.type()+"--"+setfield.length());
-		
+		System.out.println("hot_fix...测试");
 	}
 }
